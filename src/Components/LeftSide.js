@@ -1,8 +1,10 @@
 import React from 'react';
+import {Styles} from "../Style";
 
 const LeftSide = () => {
+    const classes = Styles()
     return (
-        <div>
+        <div className={classes.left}>
             
         </div>
     );
